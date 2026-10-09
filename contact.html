@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<!-- it allows browsers to interpret characters and symbols from a wide range of alphabets, copied this definition from the lecture -->
+<meta charset="UTF-8">
+<!--Helps the website adjust to different screen sizes-->
+<meta name="viewport" content="width=device-width">
+<!--the Title that will show on the webpage-->
+<title>Hamd Abid | Contact Me</title>
+
+<!--Desktop and laptop stylesheet, used the navelements from lecture examples for both -->
+<link href="css/full.css" rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+<!--Tablet stylesheet-->
+<link href="css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+<!--for phones-->
+<link href="css/phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+
+<!--All visible page content is inside the body-->
+<body>
+<!--Wrapper holds all the website content-->
+<div id="wrapper">
+
+<!--Header contains the name and navigation-->
+<header>
+<h1>Hamd Abid</h1>
+
+<!--Navigation links connect the four pages-->
+<nav>
+<a class="button" href="index.html">Home</a>
+<a class="button" href="about.html">About Me</a>
+<a class="button" href="projects.html">Projects</a>
+<a class="button" href="contact.html">Contact Me</a>
+</nav>
+
+<!--Clears the header elements-->
+<div class="clear"></div>
+</header>
+
+<!--Article contains the contact form-->
+<article>
+<h2>Contact Me</h2>
+
+<p>If you would like to contact me, please complete the form below.</p>
+
+<!--Form sends the entered information through email-->
+<form action="mailto:hamd.abid@ontariotech.net" method="post" enctype="text/plain" name="form">
+
+<!--Name field must be completed-->
+<p>
+<label for="name">Name:</label>
+<input class="form-field" type="text" id="name" name="name" required>
+</p>
+
+<!--Email field checks for an email address-->
+<p>
+<label for="email">Email:</label>
+<input class="form-field" type="email" id="email" name="email" required>
+</p>
+
+<!--Phone field collects the visitor's cell number-->
+<p>
+<label for="phone">Cell No.:</label>
+<input class="form-field" type="tel" id="phone" name="phone" required>
+</p>
+
+<!--Textarea allows the visitor to enter a message-->
+<p>
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments" rows="6" required></textarea>
+</p>
+
+<!--Submit button sends the form-->
+<p>
+<input class="submit-button" type="submit" value="Submit">
+</p>
+
+</form>
+</article>
+
+<!--Clears floated elements before the footer-->
+<div class="clear"></div>
+
+<!--Footer contains contact information and copyright-->
+<footer>
+<address>
+Contact: <a href="mailto:hamd.abid@ontariotech.net">hamd.abid@ontariotech.net</a>
+</address>
+<p>&copy; 2026 Hamd Abid</p>
+</footer>
+
+</div>
+</body>
+</html>

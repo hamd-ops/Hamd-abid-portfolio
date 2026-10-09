@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- it allows browsers to interpret characters and symbols from a wide range of alphabets, copied this definition from the lecture -->
+ <meta charset="UTF-8">
+<!--Helps the website adjust to different screen sizes-->
+<meta name="viewport" content="width=device-width">
+<!--the Title that will show on the webpage-->
+<title>Hamd Abid | About Me</title>
+
+<!--Desktop and laptop stylesheet, used the nav elements from lecture examples for both -->
+<link href="css/full.css" rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+<!--Tablet-->
+<link href="css/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+<!-- for phone-->
+<link href="css/phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+
+<!--All visible page content is inside the body-->
+<body>
+<!--Wrapper holds all the website content-->
+<div id="wrapper">
+
+<!--Header contains the name and navigation-->
+<header>
+<h1>Hamd Abid</h1>
+
+<!--Navigation links connect the four pages-->
+<nav>
+<a class="button" href="index.html">Home</a>
+<a class="button" href="about.html">About Me</a>
+<a class="button" href="projects.html">Projects</a>
+<a class="button" href="contact.html">Contact Me</a>
+</nav>
+
+<!--Clears the header elements-->
+<div class="clear"></div>
+</header>
+
+<!--Article contains the main about page content-->
+<article>
+<h2>About Me</h2>
+
+<!--places the photo and introduction beside each other-->
+<section class="about-top">
+
+<!--Profile image is displayed on the left-->
+<div class="about-photo">
+<img class="about-image" src="images/hamd abid image.jpg" alt="Photo of Hamd Abid">
+</div>
+
+<!--Introduction text is displayed beside the image-->
+<div class="about-text">
+<h3>Introduction</h3>
+
+<p>
+I am a Networking and IT Security student currently pursuing my studies with an interest in networking, cybersecurity, 
+and web development.
+</p>
+
+<p>
+I created this portfolio to showcase some of the past work and projects
+I have completed during my studies.
+</p>
+</div>
+
+<!--Clears the floated about page content-->
+<div class="clear"></div>
+</section>
+
+<!--Section contains the introduction video-->
+<section>
+<h3>Introduction Video</h3>
+
+<!--Video includes controls and a poster image-->
+<video controls poster="images/video-poster.jpg">
+<source src="video/introduction.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</section>
+
+</article>
+
+<!--Clears floated elements before the footer-->
+<div class="clear"></div>
+
+<!--Footer contains contact information and copyright-->
+<footer>
+<address>
+Contact: <a href="mailto:hamd.abid@ontariotech.net">hamd.abid@ontariotech.net</a>
+</address>
+<p>&copy; 2026 Hamd Abid</p>
+</footer>
+
+</div>
+
+</body>
+
+</html>
