@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+/*The body style controls the background and font for the whole page, 
+taken striaght from week 3*/
+body {
+background-color:#11130f;
+font-family:Verdana, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+
+/*The wrapper uses the full phone width*/
+#wrapper {
+width:100%;
+margin-left:auto;
+margin-right:auto;
+background-color:#181a16;
+}
+
+/*The header contains the name and navigation*/
+header {
+padding:15px;
+background:linear-gradient(to right, #11130f 0%, #282c20 100%);
+}
+
+/*The name is centered on phone screens*/
+header h1 {
+color:#d2ff00;
+text-align:center;
+margin-top:5px;
+margin-bottom:15px;
+font-size:24px;
+}
+
+/*The navigation uses the full phone width*/
+nav {
+width:100%;
+}
+
+/*Navigation links are stacked vertically*/
+.button {
+display:block;
+width:90%;
+text-align:center;
+color:#ebeee0;
+text-decoration:none;
+padding:12px 0px;
+margin:8px auto;
+font-size:medium;
+background-color:#282c20;
+border-radius:5px;
+transition:background 0.5s, color 0.5s;
+}
+
+/*The navigation changes when hovered*/
+.button:hover {
+background-color:#d2ff00;
+color:#282c20;
+}
+
+/*The article controls the main phone content*/
+article {
+padding:10px;
+background-color:#181a16;
+color:#ebeee0;
+}
+
+/*The intro area uses an angled gradient*/
+.intro {
+padding:20px;
+margin:0px;
+background:linear-gradient(45deg, #11130f 0%, #282c20 100%);
+border-radius:10px;
+}
+
+/*The introduction uses the full phone width*/
+.intro-content {
+width:100%;
+text-align:center;
+}
+
+/*The homepage image is placed below the introduction*/
+.intro-image {
+width:100%;
+text-align:center;
+padding-top:25px;
+}
+
+/*The homepage image is smaller on phones*/
+.intro-image img {
+width:200px;
+height:267px;
+border-radius:12px;
+}
+
+/*The small heading uses the lime accent colour*/
+.small-heading {
+color:#d2ff00;
+font-size:small;
+margin-bottom:10px;
+}
+
+/*The main heading is smaller on phones*/
+.intro h2 {
+color:#ebeee0;
+font-size:30px;
+margin-top:10px;
+margin-bottom:5px;
+}
+
+/*The highlight class uses the lime accent colour*/
+.highlight {
+color:#d2ff00;
+}
+
+/*The smaller intro heading uses a light grey colour*/
+.intro h3 {
+color:#c8cbbd;
+font-size:medium;
+}
+
+/*The introduction paragraph has extra line spacing*/
+.intro-description {
+line-height:1.6;
+margin-top:15px;
+}
+
+/*The main homepage buttons are stacked vertically*/
+.intro-button {
+display:block;
+width:85%;
+text-align:center;
+text-decoration:none;
+background-color:#d2ff00;
+color:#282c20;
+padding:12px 0px;
+margin:12px auto;
+border-radius:20px;
+transition:background 0.5s, transform 0.5s;
+}
+
+/*The second button uses a darker style*/
+.second-button {
+background-color:#282c20;
+color:#d2ff00;
+border:1px solid #d2ff00;
+}
+
+/*The buttons change when hovered*/
+.intro-button:hover {
+background-color:#ebeee0;
+color:#282c20;
+transform:scale(1.03);
+}
+
+/*The featured section contains project previews*/
+.featured {
+margin-top:20px;
+padding:15px;
+background-color:#11130f;
+border-radius:10px;
+}
+
+/*The featured projects heading is centered*/
+.featured h2 {
+color:#d2ff00;
+text-align:center;
+}
+
+/*Project cards are stacked vertically*/
+.project-card {
+width:85%;
+min-height:140px;
+padding:15px;
+margin:15px auto;
+background-color:#282c20;
+border-radius:10px;
+transition:transform 0.5s;
+}
+
+/*The project headings use light text*/
+.project-card h3 {
+color:#ebeee0;
+}
+
+/*The project links use the lime accent colour*/
+.project-card a {
+color:#d2ff00;
+}
+
+/*The project cards slightly increase in size when hovered*/
+.project-card:hover {
+transform:scale(1.02);
+}
+
+/*The projects link is centered*/
+.all-projects {
+text-align:center;
+}
+
+/*The projects link uses the lime accent colour*/
+.all-projects a {
+color:#d2ff00;
+}
+
+/*Sections use the main light text colour*/
+section {
+color:#ebeee0;
+}
+
+/*Normal sections have less spacing on phones*/
+article section {
+padding:15px;
+margin:10px 0px;
+}
+
+/*The clear class stops floated elements*/
+.clear {
+clear:both;
+}
+
+/*The footer contains the contact information and copyright*/
+footer {
+min-height:80px;
+padding:20px;
+background:linear-gradient(45deg, #282c20 0%, #11130f 100%);
+color:#ebeee0;
+text-align:center;
+}
+
+/*The footer link uses the lime accent colour*/
+footer a {
+color:#d2ff00;
+}
+
+/*Images cannot become wider than the screen*/
+img {
+max-width:100%;
+height:auto;
+}
+
+/*The about page image is smaller on phones*/
+img.about-image {
+width:150px;
+height:auto;
+border-radius:12px;
+}
+
+/*The video uses most of the phone width*/
+video {
+width:90%;
+height:auto;
+margin:15px 5%;
+}
+
+/*The form has spacing around it*/
+form {
+margin:10px;
+}
+
+/*Each form row has space underneath it*/
+form p {
+margin-bottom:20px;
+}
+
+/*Labels are displayed above each field*/
+label {
+display:block;
+margin-bottom:5px;
+}
+
+/*Form fields use most of the phone width*/
+.form-field {
+width:90%;
+padding:10px;
+font-size:medium;
+background-color:#ebeee0;
+color:#282c20;
+}
+
+/*The comments box uses most of the phone width*/
+textarea {
+width:90%;
+padding:10px;
+font-family:Verdana, Arial, sans-serif;
+font-size:medium;
+background-color:#ebeee0;
+color:#282c20;
+}
+
+/*The submit button is larger on phones*/
+.submit-button {
+width:50%;
+padding:12px;
+font-size:medium;
+background-color:#d2ff00;
+color:#282c20;
+border-radius:5px;
+transition:background 0.5s, transform 0.5s;
+}
+
+/*The submit button changes when hovered*/
+.submit-button:hover {
+background-color:#c8cbbd;
+transform:scale(1.03);
+}

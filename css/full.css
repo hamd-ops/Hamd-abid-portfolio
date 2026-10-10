@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+/*The body style controls the background and font for the whole page*/
+body {
+background-color:#11130f;
+font-family:Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+
+/*The wrapper keeps the desktop page centered at 960px*/
+#wrapper {
+width:960px;
+margin-left:auto;
+margin-right:auto;
+background-color:#181a16;
+}
+
+/*The header contains the name and navigation*/
+header {
+min-height:70px;
+padding:20px 30px;
+background:linear-gradient(to right, #11130f 0%, #282c20 100%);
+}
+
+/*The main name is displayed on the left side of the header*/
+header h1 {
+float:left;
+color:#d2ff00;
+margin:8px 0px 0px 0px;
+font-size:26px;
+}
+
+/*The navigation is displayed on the right side of the header*/
+nav {
+float:right;
+margin-top:5px;
+}
+
+/*The button class styles the navigation links*/
+.button {
+display:block;
+float:left;
+color:#ebeee0;
+text-decoration:none;
+padding:10px 12px;
+margin:5px;
+font-size:small;
+border-radius:5px;
+transition:background 0.5s, color 0.5s, transform 0.5s;
+}
+
+/*The hover style changes a navigation link when the mouse is over it*/
+.button:hover {
+background-color:#d2ff00;
+color:#282c20;
+transform:scale(1.05);
+}
+
+/*The article style controls the main page content*/
+article {
+padding:30px;
+background-color:#181a16;
+color:#ebeee0;
+}
+
+/*The intro class creates the main homepage introduction area*/
+.intro {
+min-height:400px;
+padding:40px;
+margin:0px;
+background:linear-gradient(45deg, #11130f 0%, #282c20 100%);
+border-radius:15px;
+}
+
+/*The introduction content is floated to the left*/
+.intro-content {
+float:left;
+width:50%;
+padding-top:45px;
+}
+
+/*The introduction image is floated to the right*/
+.intro-image {
+float:right;
+width:42%;
+text-align:center;
+padding-top:25px;
+}
+
+/*The homepage profile image has its own size*/
+.intro-image img {
+width:300px;
+height:400px;
+border-radius:12px;
+}
+
+/*The small heading uses the lime accent colour*/
+.small-heading {
+color:#d2ff00;
+font-size:small;
+margin-bottom:15px;
+}
+
+/*The main intro heading is larger than the other headings*/
+.intro h2 {
+color:#ebeee0;
+font-size:40px;
+margin-top:10px;
+margin-bottom:5px;
+}
+
+/*The smaller intro heading uses a lighter colour*/
+.intro h3 {
+color:#c8cbbd;
+margin-top:5px;
+}
+
+/*The introduction paragraph has extra line spacing*/
+.intro-description {
+line-height:1.6;
+margin-top:20px;
+}
+
+/*The intro button class creates the main homepage buttons*/
+.intro-button {
+display:block;
+float:left;
+text-decoration:none;
+background-color:#d2ff00;
+color:#282c20;
+padding:12px 18px;
+margin-top:20px;
+margin-right:10px;
+border-radius:20px;
+transition:background 0.5s, transform 0.5s;
+}
+
+/*The second button uses a different colour style*/
+.second-button {
+background-color:#282c20;
+color:#d2ff00;
+border:1px solid #d2ff00;
+}
+
+/*The intro buttons change slightly when hovered*/
+.intro-button:hover {
+background-color:#ebeee0;
+color:#282c20;
+transform:scale(1.05);
+}
+
+/*The featured class holds the project previews*/
+.featured {
+margin-top:30px;
+padding:25px;
+background-color:#11130f;
+border-radius:15px;
+}
+
+/*The featured projects heading uses the lime accent colour*/
+.featured h2 {
+color:#d2ff00;
+margin-left:10px;
+}
+
+/*The project cards are displayed beside each other*/
+.project-card {
+float:left;
+width:40%;
+min-height:150px;
+padding:20px;
+margin:15px;
+background-color:#282c20;
+border-radius:10px;
+transition:transform 0.5s;
+}
+
+/*The project card headings use light text*/
+.project-card h3 {
+color:#ebeee0;
+}
+
+/*The project links use the lime accent colour*/
+.project-card a {
+color:#d2ff00;
+}
+
+/*The project cards slightly increase in size when hovered*/
+.project-card:hover {
+transform:scale(1.03);
+}
+
+/*The link below the project cards is centered*/
+.all-projects {
+text-align:center;
+}
+
+/*The projects link uses the lime accent colour*/
+.all-projects a {
+color:#d2ff00;
+}
+
+/*The about section places the photo and text beside each other*/
+.about-top {
+padding:20px;
+}
+
+/*The about page photo stays on the left*/
+.about-photo {
+float:left;
+width:25%;
+}
+
+/*The about page introduction stays on the right*/
+.about-text {
+float:right;
+width:70%;
+}
+
+/*The about page image is kept smaller than the homepage image*/
+img.about-image {
+width:140px;
+height:auto;
+border-radius:12px;
+}
+
+/*The introduction heading uses the lime accent colour*/
+.about-text h3 {
+color:#d2ff00;
+margin-top:0px;
+}
+
+/*The introduction text has extra line spacing*/
+.about-text p {
+line-height:1.6;
+}
+
+/*The clear class stops floated elements from affecting later content*/
+.clear {
+clear:both;
+}
+
+/*The footer contains the contact information and copyright*/
+footer {
+min-height:80px;
+padding:20px 30px;
+background:linear-gradient(45deg, #282c20 0%, #11130f 100%);
+color:#ebeee0;
+}
+
+/*The footer email link uses the lime accent colour*/
+footer a {
+color:#d2ff00;
+}
+
+/*Normal images cannot become wider than their container*/
+img {
+max-width:100%;
+height:auto;
+}
+
+/*The video stays inside the page*/
+video {
+max-width:100%;
+height:auto;
+margin:15px;
+}
+
+/*Sections use the main light text colour*/
+section {
+color:#ebeee0;
+}
+
+/*The form has spacing around it*/
+form {
+margin:20px;
+}
+
+/*Each form row has space underneath it*/
+form p {
+margin-bottom:20px;
+}
+
+/*Labels are displayed above each form field*/
+label {
+display:block;
+margin-bottom:5px;
+}
+
+/*The main form fields all use the same size*/
+.form-field {
+width:50%;
+padding:8px;
+font-size:medium;
+background-color:#ebeee0;
+color:#282c20;
+}
+
+/*The comments box matches the other form fields*/
+textarea {
+width:50%;
+padding:8px;
+font-family:Verdana, Geneva, Arial, sans-serif;
+font-size:medium;
+background-color:#ebeee0;
+color:#282c20;
+}
+
+/*The submit button uses the lime accent colour*/
+.submit-button {
+padding:10px 20px;
+font-size:medium;
+background-color:#d2ff00;
+color:#282c20;
+border-radius:5px;
+transition:background 0.5s, transform 0.5s;
+}
+
+/*The submit button changes when hovered*/
+.submit-button:hover {
+background-color:#c8cbbd;
+transform:scale(1.05);
+}
