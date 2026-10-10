@@ -75,3 +75,16 @@ Before submitting, I tested the website using:
 - W3C Link Checker
 - Spelling checker
 - WAVE Accessibility Evaluation Tool
+
+
+so after using them:
+## Testing
+
+I tested the website using:
+- W3C HTML Validator
+- W3C CSS Validator
+- W3C Link Checker
+- Spelling checker
+- WAVE Accessibility Evaluation Tool
+
+The HTML and CSS were validated and broken links were corrected. WAVE reported no accessibility errors or contrast errors. The remaining alerts were reviewed and related to the HTML5 video and redundant links.
